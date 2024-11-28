@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Parkinsans";
+    margin: 0 60px;
+}
+
+
+/* Navbar Section */
+
+#nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+
+#nav ul .shop_button {
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: #02a78d;
+    font-weight: bold;
+}
+
+#nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Banner Section */
+
+
+#banner {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#banner #left_side {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 24px;
+}
+
+#banner #left_side h1 {
+    font-size: 62px;
+}
+
+#banner #left_side p {
+    width: 86%;
+}
+
+#left_side .left_btn {
+    width: 26%;
+    height: 56px;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #e56338;
+    color: white;
+}
+
+#banner #right_side {
+    position: relative;
+    width: 44%;
+}
+
+#banner #right_side #spices {
+    width: 100%;
+    opacity: 0.1;
+    height: 100%;
+}
+
+#banner #right_side #food_image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*  cards section */
+
+#cards {
+    width: 100%;
+    height: 751px;
+}
+
+
+#cards .card_titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+#cards .card_titles p {
+    font-size: 24px;
+    font-size: 400;
+}
+
+#cards .card_titles p span {
+    color: #e98260;
+}
+
+#cards .card_titles .card_view_more {
+    width: 7%;
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+    background-color: #db7649;
+    color: white;
+}
+
+#cards .card_item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+#cards .card_item .item_1 {
+    width: 100%;
+}
+
+#cards .card_item .item_1 .item_image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f9ec;
+    height: 230px;
+}
+
+#cards .card_item .item_1 .item_info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+#cards .card_item .item_1 .item_info1 .title {
+    font-size: 21px;
+}
+
+#cards .card_item .item_1 .item_info1 .description {
+    font-size: 16px;
+    color: #000000b0;
+}
+
+#cards .card_item .item_1 img {
+    width: 50%;
+}
+
+
+#cards .card_item .item_2 {
+    width: 100%;
+}
+
+#cards .card_item .item_2 .item_image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f9ec;
+    height: 230px;
+}
+
+#cards .card_item .item_2 .item_info2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+#cards .card_item .item_2 .item_info2 .title {
+    font-size: 21px;
+}
+
+#cards .card_item .item_2 .item_info2 .description {
+    font-size: 16px;
+    color: #000000b0;
+}
+
+#cards .card_item .item_2 img {
+    width: 50%;
+}
+
+
+#cards .card_item .item_3 {
+    width: 100%;
+}
+
+
+#cards .card_item .item_3 .item_image3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f9ec;
+    height: 230px;
+}
+
+#cards .card_item .item_3 .item_info3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+#cards .card_item .item_3 .item_info3 .title {
+    font-size: 21px;
+}
+
+#cards .card_item .item_3 .item_info3 .description {
+    font-size: 16px;
+    color: #000000b0;
+}
+
+#cards .card_item .item_3 img {
+    width: 50%;
+}
+
+
+
+/* minu */
+
+#minu {
+    width: 100%;
+}
+
+#minu .title {
+    font-size: 25px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+#minu_category {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+/* category 1 */
+
+#minu_category .category1 {}
+
+
+#minu #minu_category .category1,
+.category2,
+.category3,
+.category4,
+.category5,
+.category6,
+img {
+    width: 100%;
+    height: 160px;
+}
+
+
+#minu #minu_category .category1,
+.category2,
+.category3,
+.category4,
+.category5,
+.category6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* recipe cooking section */
+
+
+#recipe_blog {
+    width: 100%;
+    height: 600px;
+}
+
+#recipe_blog #recipe_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#recipe_blog #recipe_heading h1 {
+
+    font-weight: 400;
+}
+
+#recipe_blog #recipe_heading .r_btn {
+    width: 8%;
+    height: 46px;
+    border-radius: 20px;
+    border: 1px solid;
+    background-color: #01a98f;
+    color: white;
+}
